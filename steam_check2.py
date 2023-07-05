@@ -46,3 +46,5 @@ for i in all_game_id:
 with open('log.txt', 'w') as file:
     for item in result_check:
         file.write("%s\n" % item)
+        
+print("Проверка завершена")
