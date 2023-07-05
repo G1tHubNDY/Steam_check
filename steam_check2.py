@@ -3,7 +3,7 @@ import re
 import subprocess
 import time
 
-directory_path = ['D:\SteamLibrary\steamapps', 'E:\steam\steamapps', 'F:\steam\steamapps']
+directory_path = ['D:\Games\steam\steamapps', 'E:\steam\steamapps', 'F:\steam\steamapps']
 
 def search_steam_id(steam_directory):
     file_names = []
